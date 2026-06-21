@@ -9,6 +9,8 @@ jobs:
       matrix:
         python-version: ['3.7', '3.8']
     runs-on: ubuntu-22.04
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
     
       # Runs a single command using the runners shell, using run:
