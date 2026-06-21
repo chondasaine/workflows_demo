@@ -41,4 +41,4 @@ jobs:
       - name: Run the Python code in helloworld.py
         run: |
           echo "Running Python code"
-          python3 helloworld.py  
+          python3 ${{ github.workspace }}/helloworld.py  
